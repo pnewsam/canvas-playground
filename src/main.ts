@@ -1,6 +1,6 @@
-import "./style.css";
 import { setupCanvas } from "./scripts/setupCanvas";
 import initializers from "./scripts/initializers";
+import "../style.css";
 
 document.addEventListener("DOMContentLoaded", async () => {
   const canvas = setupCanvas();

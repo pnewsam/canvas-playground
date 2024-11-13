@@ -5,14 +5,38 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="app">
-      <main>
-        <canvas> You must use Javascript to view this page. </canvas>
+      <main class="flex flex-col items-center justify-center p-8">
+        <div
+          class="flex items-center w-[600px] justify-between border border-neutral-300 mb-4 shadow rounded-lg p-4"
+        >
+          <div class="grid grid-cols-3 grid-rows-2">
+            <button class="bg-red-500 border hover:bg-red-400 w-8 h-8"></button>
+            <button
+              class="bg-blue-500 border hover:bg-blue-400 w-8 h-8"
+            ></button>
+            <button
+              class="bg-green-500 border hover:bg-green-400 w-8 h-8"
+            ></button>
+            <button class="bg-red-500 border hover:bg-red-400 w-8 h-8"></button>
+            <button
+              class="bg-blue-500 border hover:bg-blue-400 w-8 h-8"
+            ></button>
+            <button
+              class="bg-green-500 border hover:bg-green-400 w-8 h-8"
+            ></button>
+          </div>
+          <div></div>
+        </div>
+        <canvas
+          class="border border-neutral-300 block h-[600px] w-[600px] rounded-lg shadow-lg"
+        >
+          You must use Javascript to view this page.
+        </canvas>
       </main>
     </div>
-    <script type="module" src="/main.ts"></script>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
